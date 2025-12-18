@@ -9,4 +9,11 @@ CREATE TABLE duenos (
     direccion VARCHAR(100)
 );
 
-
+CREATE  TABLE mascotas(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(50) NOT NULL,
+    especie VARCHAR(50) NOT NULL,
+    fecha_nacimiento DATE,
+    id_dueno INT,
+    FOREING KEY (id_dueno) REFERENCES duenos(id) 
+);
