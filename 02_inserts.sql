@@ -1,3 +1,4 @@
+USE veterinaria_patitas_felices;
 -- Ejercicio 6 – Insertar registros
 -- dueños
 INSERT INTO duenos (nombre, apellido, telefono, direccion)
