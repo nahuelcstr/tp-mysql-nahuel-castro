@@ -65,12 +65,9 @@ Para correr el proyecto necesitas:
 
    -- Paso 4: Ejecutar consultas solicitadas
    source 04-join_simple.sql;
-   ```
 
    -- Paso 5: Ejecutar consultas solicitadas
    source 05-join_multiple.sql;
-
-   ```
 
    ```
 
